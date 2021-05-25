@@ -1,6 +1,6 @@
 {
-      "name": "SAMEER OFFICIAL",
-      "description": "An OP Telegram UserBot.",
+      "name": "Akame Robot",
+      "description": "An Telegram Group Manager Bot.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,7 +8,7 @@
          "manager",
          "LEGEND"
       ],   
-   "repository": "https://github.com/sameerpanthi/SAVAGE-MANAGEMENT-BOT-OP",
+   "repository": "https://github.com/vermaabhinav313/AkameRobot",
    "addons": [
       {
          "options": {
@@ -189,6 +189,6 @@
       "manager",
       "GRAND"
    ],
-   "name": " SAMEER OFFICIAL",
-   "repository": "https://github.com/SAMEERPANTHI/SAVAGE-MANAGEMENT-BOT-OP"
+   "name": " Akame Robot",
+   "repository": "https://github.com/vermaabhinav313/AkameRobot"
 }
