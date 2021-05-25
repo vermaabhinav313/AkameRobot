@@ -81,7 +81,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="💫 Add Akame To Your Group 💫",
-            url="t.me/SAVAGE_MANAGER_BOT?startgroup=true",
+            url="t.me/AkameRobot?startgroup=true",
         ),
     ],
 ]
