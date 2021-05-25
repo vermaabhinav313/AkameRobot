@@ -70,7 +70,7 @@ I am An Anime Themed Group Managing Bot and I will help in Managing your Group.\
 
 ✪Make sure you read *INFO* Section Below✪ \n
 """
-              
+context = self.get_context_data(object=self.object)              
 buttons = [
     [
                         [
