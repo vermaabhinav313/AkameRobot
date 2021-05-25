@@ -73,74 +73,18 @@ I am An Anime Themed Group Managing Bot and I will help in Managing your Group.\
            
 buttons = [
     [
-                        [
-                            InlineKeyboardButton(
-
-                                text="☑️ Add me",
-
-                                url="t.me/{}?startgroup=true".format(
-
-             
-
-                                ),
-
-                            ),
-
-                        ],
-
-                        [
-
-                            InlineKeyboardButton(
-
-                                text="🚑 Support",
-
-                                url=f"https://t.me/Weebsgalaxy",
-
-                            ),
-
-                            InlineKeyboardButton(
-
-                                text="📟 Updates",
-
-                                url="https://t.me/AkameUpdates/",
-
-                            ),
-
-                        ],
-
-                        [
-
-                            InlineKeyboardButton(
-
-                                text="🧾 Getting Started",
-
-                                url="https://t.me/AkameUpdates/8",
-
-                            ),
-
-                            InlineKeyboardButton(
-
-                                text="📦 Source Code",
-
-                                url="http://bit.ly/AkameRobot",
-
-                            ),
-
-                        ],
-
-                        [
-
-                            InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
-
-                            
-
-                        ],
-
-                    ],
-
-                
-
-            ]
+        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+    ],
+    [
+        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="💫 Add Akame To Your Group 💫",
+            url="t.me/SAVAGE_MANAGER_BOT?startgroup=true",
+        ),
+    ],
+]
 HELP_STRINGS = f"""
 *Main Commands :*
 ✪ /start: Starts me! You've probably already used this.
