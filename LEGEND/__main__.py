@@ -73,20 +73,74 @@ I am An Anime Themed Group Managing Bot and I will help in Managing your Group.\
               
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
-    ],
-    [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="💫 Add Akame to your Group 💫",
-            url="t.me/AkameRobot?startgroup=true",
-        ),
-    ],
-]
+                        [
+                            InlineKeyboardButton(
 
+                                text="☑️ Add me",
 
+                                url="t.me/{}?startgroup=true".format(
+
+                                    context.bot.username,
+
+                                ),
+
+                            ),
+
+                        ],
+
+                        [
+
+                            InlineKeyboardButton(
+
+                                text="🚑 Support",
+
+                                url=f"https://t.me/Weebsgalaxy",
+
+                            ),
+
+                            InlineKeyboardButton(
+
+                                text="📟 Updates",
+
+                                url="https://t.me/AkameUpdates/",
+
+                            ),
+
+                        ],
+
+                        [
+
+                            InlineKeyboardButton(
+
+                                text="🧾 Getting Started",
+
+                                url="https://t.me/AkameUpdates/8",
+
+                            ),
+
+                            InlineKeyboardButton(
+
+                                text="📦 Source Code",
+
+                                url="http://bit.ly/AkameRobot",
+
+                            ),
+
+                        ],
+
+                        [
+
+                            InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
+
+                            ),
+
+                        ],
+
+                    ],
+
+                ),
+
+            )
 HELP_STRINGS = f"""
 *Main Commands :*
 ✪ /start: Starts me! You've probably already used this.
