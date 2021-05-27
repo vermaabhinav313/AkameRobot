@@ -101,7 +101,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/SAVAGE_MANAGEMENT_BOT,[SAMEER](t.me/SAMEER_795),"""
+Support them  [N](t.me/AkameSupport),[SAMEER](t.me/SAMEER_795),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -358,7 +358,7 @@ def LEGEND_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*Hi again!  The name's {dispatcher.bot.first_name}  \n\nAs  You I'm a next generational group management bot developed by Love.* "
-            f"\n\n Join [SUPPORT GROUP](https://t.me/Indian_Otakus) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            f"\n\n Join [SUPPORT GROUP](https://t.me/{SUPPORT_CHAT}) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features :)"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons ",
@@ -395,7 +395,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/Indian_Otakus).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/{SUPPORT_CHAT}).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -416,9 +416,9 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [SAVAGE BOT](https://github.com/Sameerpanthi/SAVAGE-IS-BACK)."
+            f"\n\nBased on [Akame Robot](https://github.com/vermaabhinav313/AkameRobot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @Indian_Otakus.",
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -479,7 +479,7 @@ def LEGEND_about_callback(update, context):
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
             f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of SAVAGE Bot we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @Indian_Otakus."
+            f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
