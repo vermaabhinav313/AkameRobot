@@ -13,9 +13,10 @@ __help__ = """
  - /t <reply> : Show grammer corrected text
  
 ** Image Tools**
- - /img <text>: perform a image search
- - /getqr <reply to image>: Read QR code
- - /makeqr <reply to text>: Make QR code
+ - /img <text>: perform a image search.
+ - /getqr <reply to image>: Read QR code.
+ - /makeqr <reply to text>: Make QR code.
+ - /reverse <reply to image>: Search about image. 
  
 ** Style Text **
  - /weebify : Weebify Text
