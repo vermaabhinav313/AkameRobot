@@ -342,8 +342,8 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("AkameRobot{}.backup".format(chat_id), "rb"),
-        caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `LEGEND BOT` was specially made for notes.".format(
+        document=open("LEGENDBOT{}.backup".format(chat_id), "rb"),
+        caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `AkameRobot` was specially made for notes.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
