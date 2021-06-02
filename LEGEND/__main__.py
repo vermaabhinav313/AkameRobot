@@ -73,17 +73,23 @@ I am An Anime Themed Group Managing Bot and I will help in Managing your Group.\
            
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
-    ],
-    [
-        InlineKeyboardButton(text="❓ Help & Commands ❓", callback_data="help_back"),
-    ],
+        InlineKeyboardButton(
+        text="Help & Commands ❓", callback_data="help_back"
+        ),
+        InlineKeyboardButton(
+        text="About", callback_data="aboutmanu_"
+        ),
+    ]
+    
+]
+
+buttons += [
     [
         InlineKeyboardButton(
-            text="💫 Add Akame To Your Group 💫",
-            url="t.me/AkameRobot?startgroup=true",
+            text="Add to Group 👥", url="t.me/zoldycktmbot?startgroup=true"
         ),
-    ],
+       
+    ]
 ]
 HELP_STRINGS = f"""
 *Main Commands :*
