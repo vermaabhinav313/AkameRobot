@@ -68,9 +68,9 @@ PM_START_TEXT = """
 Hello there, I'm Akame!
 I am An Anime Themed Group Managing Bot and I will help in Managing your Group.\n
 
-i have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
+I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
 
-Any issues or need help related to me? join our group [Akame Support](https://t.me/AkameSupport). \n
+Any issues or need help related to me? Read About Section.
 """
            
 buttons = [
