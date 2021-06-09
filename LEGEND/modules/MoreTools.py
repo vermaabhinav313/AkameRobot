@@ -20,10 +20,11 @@ __help__ = """
  
 ** Style Text **
  - /weebify : Weebify Text
- - /square : square Text
+ - /square : Square Text
  - /blue : Blues text
  
 ** More **
  - /phone <tp no> : Track Phone no
+ - /q : To quote a message
 """
 __mod_name__ = "More Tools"
