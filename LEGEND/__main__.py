@@ -73,7 +73,7 @@ I have lots of handy features, such as flood control, a warning system, a note k
 Any issues or need help related to me? Read About Section.
 """
            
-buttons = [
+buttons = (
     [
             [
                 InlineKeyboardButton(
@@ -97,7 +97,7 @@ buttons = [
                 )
             ],
         ]
-    ]
+    )
 HELP_STRINGS = f"""
 *Main Commands :*
 ✪ /start: Starts me! You've probably already used this.
