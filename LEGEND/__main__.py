@@ -75,24 +75,29 @@ Any issues or need help related to me? Read About Section.
            
 buttons = [
     [
-        InlineKeyboardButton(
-        text="❓Help", callback_data="help_back"
-        ),
-        InlineKeyboardButton(
-        text="📓About", callback_data="aboutmanu_"
-        ),
-    ]
-    
-]
-
-buttons += [
-    [
-        InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/AkameRobot?startgroup=true"
-        ),
-       
-    ]
-]
+            [
+                InlineKeyboardButton(
+                    text="Commands ❓", callback_data="help_back"
+                ),
+                InlineKeyboardButton(
+                    text="Repo 🛠",
+                    url="https://github.com/vermaabhinav313/AkameRobot",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="Updates 🖥", url="t.me/AkameUpdates"
+                ),
+                InlineKeyboardButton(text="Support 👨", url="t.me/AkameSupport"),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="Add Me To Your Group ➕",
+                    url=f"http://t.me/AkameRobot?startgroup=new",
+                )
+            ],
+        ]
+    )
 HELP_STRINGS = f"""
 *Main Commands :*
 ✪ /start: Starts me! You've probably already used this.
